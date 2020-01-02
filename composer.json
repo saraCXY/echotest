@@ -1,0 +1,25 @@
+{
+    "name": "sara/echotest",
+    "description": "just for test",
+    "authors": [
+        {
+            "name": "caoxiangyun",
+            "email": "caoxiangyun@xin.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Middlelog\\echotest\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Middlelog\\echotest\\ServiceProvider"
+            ]
+        }
+    }
+}
