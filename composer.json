@@ -18,7 +18,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Middlelog\\echotest\\ServiceProvider"
+                "Middlelog\\echotest\\EchoProviderServer"
             ]
         }
     }
